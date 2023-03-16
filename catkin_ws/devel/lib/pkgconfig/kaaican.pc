@@ -1,0 +1,8 @@
+prefix=/home/kaai/catkin_ws/devel
+
+Name: kaaican
+Description: Description of kaaican
+Version: 0.0.0
+Cflags: -I/home/kaai/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs message_runtime

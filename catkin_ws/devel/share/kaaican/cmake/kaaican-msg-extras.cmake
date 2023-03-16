@@ -1,0 +1,2 @@
+set(kaaican_MESSAGE_FILES "/home/kaai/catkin_ws/src/kaaican/msg/Niro.msg;/home/kaai/catkin_ws/src/kaaican/msg/Mobileye.msg;/home/kaai/catkin_ws/src/kaaican/msg/Mobileye_det.msg;/home/kaai/catkin_ws/src/kaaican/msg/can_std.msg;/home/kaai/catkin_ws/src/kaaican/msg/UDS_message.msg;/home/kaai/catkin_ws/src/kaaican/msg/fake.msg;/home/kaai/catkin_ws/src/kaaican/msg/k7.msg")
+set(kaaican_SERVICE_FILES "")

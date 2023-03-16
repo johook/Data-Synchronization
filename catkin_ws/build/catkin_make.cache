@@ -1,0 +1,2 @@
+Tools_RosBag2KITTI/catkin_ws/src/obstacle_detection:kaaican:tracker
+-DCATKIN_DEVEL_PREFIX=/home/kaai/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/kaai/catkin_ws/install -G Unix Makefiles

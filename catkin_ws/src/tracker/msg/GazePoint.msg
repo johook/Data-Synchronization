@@ -1,0 +1,10 @@
+geometry_msgs/Point gaze_point_3d
+geometry_msgs/Point norm_pos
+geometry_msgs/Point gaze_normals_3d_left
+geometry_msgs/Point gaze_normals_3d_right
+geometry_msgs/Point eye_centers_3d_left
+geometry_msgs/Point eye_centers_3d_right
+float64 pupil_confidence
+float64 calib_rotation
+uint32 label
+Header header
