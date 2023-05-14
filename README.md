@@ -31,7 +31,7 @@ cpp코드로 진행하다보니까 여러개의 센서들을 동기화 할 때 B
     
 # Sync.py
 
- ApproximateTime Policy 알고리즘을 사용해서 [sync.py](http://sync.py) 코드를 작성 하였다. 
+ ApproximateTime Policy 알고리즘을 사용해서 sync.py 코드를 작성 하였다. 
 
 **문제발생**
 
