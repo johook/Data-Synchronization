@@ -47,6 +47,6 @@ hz의 크기로 3 그룹을 만들었다.
 
 3) hz가 중간인 나머지
 
-따라서 hz가 큰 can, mobileye와 작은 xsens 그리고 중간인 Flir를 하나의 sync파일로 만들고 
+따라서 hz가 큰 can, mobileye와 작은 GPS 그리고 중간인 Camera를 하나의 sync 파일로 만들고 
 
-hz가 중간인 나머지 Topic들을 하나의 sync파일로 만들어 publish 하도록 했다.
+hz가 중간인 나머지 Topic들을 sync2.py 파일로 만들어 publish 하도록 했다.
