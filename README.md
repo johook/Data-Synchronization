@@ -1,5 +1,5 @@
 # Data-Synchronization
-여러가지 센서들(Lidar, Camera, Can, Eye-tracker, GPS)를 사용하여 주행 데이터셋을 쌓기위한 Sensor들의 synchronization이다.
+여러가지 센서들(Lidar, Camera, Can, Eyetracker,Headtracker, GPS)를 사용하여 주행 데이터셋을 쌓기위한 Sensor들의 synchronization이다.
 Camera와 LiDAR Topic Hz가 다르기 때문에, 이것을 맞춰주는 작업이 필요하고 그 과정은 ROS 상에서 TimeSynchronizer filter를 통해서 메세지에 적용시킬 수 있다. 
 
 message_filters::sync_policies::ApproximateTime 를 사용하면, 메세지간의 Hz가 다르다고 하여도 adaptive algorithm을 사용하여 queue에 들어온 가장 마지막 메세지들을 연결해준다.
@@ -50,3 +50,8 @@ hz의 크기로 3 그룹을 만들었다.
 따라서 hz가 큰 can, mobileye와 작은 GPS 그리고 중간인 Camera를 하나의 sync 파일로 만들고 
 
 hz가 중간인 나머지 Topic들을 sync2.py 파일로 만들어 publish 하도록 했다.
+
+## 결과 
+![Sample1](https://github.com/johook/Data-Synchronization/assets/116954375/dedc0495-655e-408f-845b-d04d9c346d9a)
+![Sample2](https://github.com/johook/Data-Synchronization/assets/116954375/9d09a074-988a-49fe-b373-d1e094a442ae)
+
